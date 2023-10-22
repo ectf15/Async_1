@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async", "Async.csproj", "{4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async_2", "..\Async_2\Async_2.csproj", "{6ABCB2AD-51EA-4C99-8EF7-19C7695CF53D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Procesador_de_pagos", "Procesador_de_pagos", "{4342D37C-FE7D-4F64-9B3C-02120C391C58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Descarga_de_datos", "Descarga_de_datos", "{7B28CD72-3631-4E45-803C-1027016EE451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47334866-3395-4FCB-90D5-ECC4671104A1} = {4342D37C-FE7D-4F64-9B3C-02120C391C58}
+		{6ABCB2AD-51EA-4C99-8EF7-19C7695CF53D} = {7B28CD72-3631-4E45-803C-1027016EE451}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC933990-E863-4526-8D88-8902001F6A63}
